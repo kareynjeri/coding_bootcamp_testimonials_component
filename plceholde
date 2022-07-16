@@ -1,0 +1,27 @@
+.img {
+
+    height: 500px;
+    width: 500px;
+    border-radius: 12px;
+    /* position: absolute; */
+    /* z-index: 2; */
+
+}
+
+.last {
+    height: 550px;
+    width: 500px;
+}
+
+/* .testimonials-card {
+    display: flex;
+    align-items: center;
+} */
+
+
+
+.testimonials-card2,
+.testimonials-card3,
+.testimonials-card4 {
+    display: none;
+} 

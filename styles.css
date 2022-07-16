@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+:root {
+    --text-color: DarkBlue hsl(240, 38%, 20%);
+    --primary-color: GrayishBlue hsl(240, 18%, 77%);
+}
+
+.main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.content_wrapper {
+    position: relative;
+    z-index: 1;
+
+}
+
+.hero {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* padding-top: 100px; */
+
+}
+
+.hero-svg2 {
+  
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left:560px;
+    padding-top: 40px;
+
+}
+
+
+.img {
+
+    height: 500px;
+    width: 500px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.testimonials-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.testimonials-text {
+    display: flex;
+    flex-direction: column;
+
+    z-index: 1;
+}
+
+.testimony-p {
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.name-role {
+    display: flex;
+    padding-top: 32px;
+}
+
+.testimony-name {
+    font-weight: 700;
+    font-size: 19px;
+
+}
+
+.testimony-role {
+    color: rgb(210, 204, 204);
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 9px;
+}
+
+
+.button-controls {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    background-color: whitesmoke;
+    padding: 12px;
+    border-radius: 23px;
+    width: 90px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icon-svg-button {
+    border: none;
+    background: none;
+}
